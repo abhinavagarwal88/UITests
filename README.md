@@ -16,7 +16,7 @@ IDE is installed in system
 3. Create Junit Run configuration (select JUnit4)
 4. Use below VM Arguments to run the tests : 
 **-Dbrowser="chrome" -Damazon_homepage="https://www.amazon.com/"** for chrome
-https://github.com/abhinavagarwal88/UITests.git for firefox
+**-Dbrowser="firefox" -Damazon_homepage="https://www.amazon.com/"** for firefox
 
 Test Report
 To access test report go to UITests/target/cucumber-reports/cucumber-pretty
