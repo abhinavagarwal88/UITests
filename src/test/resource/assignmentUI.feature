@@ -15,7 +15,6 @@ Feature: Order an item on amazon.com
    And I click on Add to Cart link
    And I check price for added item in sub cart page
    And I click on proceed to checkout button sub cart page
-   And I select address and payment methods
    And I verify the price on item checkout page
 
 

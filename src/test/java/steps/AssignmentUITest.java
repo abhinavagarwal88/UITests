@@ -8,7 +8,6 @@ import com.cumcumber.UITests.AmazonItemCheckOutPage;
 import com.cumcumber.UITests.AmazonProductDetailsPage;
 import com.cumcumber.UITests.AmazonSearchResultPage;
 import com.cumcumber.UITests.AmazonSignIn;
-import com.cumcumber.UITests.SelectAddressAndPaymentMethod;
 import com.selenium.helpers.SeleniumHelpers;
 
 import cucumber.api.java.en.Given;
@@ -87,13 +86,6 @@ public class AssignmentUITest {
 	@Then("^I click on proceed to checkout button sub cart page$")
 	public void i_click_on_proceed_to_checkout_button_sub_cart_page() throws Throwable {
 		AmazonCartSubTotal.clickProceedToCheckOutButton(); // click proceed to checkout page
-	}
-
-	@Then("^I select address and payment methods$")
-	public void i_select_address_and_payment_methods() throws Throwable {
-		SelectAddressAndPaymentMethod.selectAddress(); // select most recent address
-		SelectAddressAndPaymentMethod.clickContinueButton(); // click continue button on shipping options
-		SelectAddressAndPaymentMethod.clickContinueButtonPayment(); // click continue on payment options page
 	}
 
 	@Then("^I verify the price on item checkout page$")
